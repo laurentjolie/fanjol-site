@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "Fanjol Skulpturen",
+    "description": "Skulpturengalerie von Fanjol"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "works": "Werke",
+    "shop": "Shop",
+    "gallery": "Galerie",
+    "about": "Über",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Skulpturen",
+    "subtitle": "Einzigartige Bronzeskulpturen",
+    "viewGallery": "Galerie ansehen"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "allWorks": "Alle Werke"
+  },
+  "about": {
+    "title": "Über",
+    "artistStatement": "Künstlerisches Statement"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "back": "Zurück"
+  },
+  "language": {
+    "select": "Sprache",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}
