@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { sculptures } from '@/data/sculptures';
+import SculptureCard from '@/components/SculptureCard';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -18,20 +18,7 @@ export default async function Home({ params }: Props) {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {sculptures.map((sculpture) => (
-          <div key={sculpture.id} className="group">
-            <div className="aspect-square relative overflow-hidden bg-gray-50">
-              <Image
-                src={sculpture.image}
-                alt={sculpture.title}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-              />
-            </div>
-            <p className="mt-3 text-sm text-gray-700 text-center font-light">
-              {sculpture.title}
-            </p>
-          </div>
+          <SculptureCard key={sculpture.id} sculpture={sculpture} />
         ))}
       </div>
     </main>
