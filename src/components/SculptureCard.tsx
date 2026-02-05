@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 import { useRef, useEffect } from 'react';
-import type { Sculpture } from '@/data/sculptures';
+import { Sculpture } from '@/data/sculptures';
 
-function SculptureCard({ sculpture }: { sculpture: Sculpture }) {
+export default function SculptureCard({ sculpture }: { sculpture: Sculpture }) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function SculptureCard({ sculpture }: { sculpture: Sculpture }) {
             <source src={sculpture.video.webm} type="video/webm" />
             <source src={sculpture.video.preview} type="video/mp4" />
             <Image
-              src={sculpture.image}
+              src={sculpture.video.poster}
               alt={sculpture.title}
               fill
               className="object-cover"
@@ -49,5 +49,3 @@ function SculptureCard({ sculpture }: { sculpture: Sculpture }) {
     </div>
   );
 }
-
-export default SculptureCard;
