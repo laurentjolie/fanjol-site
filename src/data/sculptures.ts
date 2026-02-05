@@ -6,12 +6,12 @@ export interface Sculpture {
 }
 
 export const sculptures: Sculpture[] = [
-  { id: "a-parents-tiers", title: "A Parents-Tiers", image: "/sculptures/videos/poster/A_parents-tiers_1rotation.jpg", video: { preview: "/sculptures/videos/preview/A_parents-tiers_1rotation.mp4", webm: "/sculptures/videos/preview/A_parents-tiers_1rotation.webm", poster: "/sculptures/videos/poster/A_parents-tiers_1rotation.jpg", full: "/sculptures/videos/full/A_parents-tiers_1rotation.mp4" } },
+  { id: "a-parents-tiers", title: "À Parents-Tiers", image: "/sculptures/videos/poster/A_parents-tiers_1rotation.jpg", video: { preview: "/sculptures/videos/preview/A_parents-tiers_1rotation.mp4", webm: "/sculptures/videos/preview/A_parents-tiers_1rotation.webm", poster: "/sculptures/videos/poster/A_parents-tiers_1rotation.jpg", full: "/sculptures/videos/full/A_parents-tiers_1rotation.mp4" } },
   { id: "abri", title: "Abri", image: "/sculptures/ABRI.jpg" },
   { id: "adulation", title: "Adulation", image: "/sculptures/ADULATION.jpeg" },
   { id: "alliances", title: "Alliances", image: "/sculptures/ALLIANCES.jpeg", video: { preview: "/sculptures/videos/preview/Alliances.mp4", webm: "/sculptures/videos/preview/Alliances.webm", poster: "/sculptures/videos/poster/Alliances.jpg", full: "/sculptures/videos/full/Alliances.mp4" } },
   { id: "atout-coeur", title: "Atout Cœur", image: "/sculptures/ATOUT COEUR.jpeg" },
-  { id: "au-creux-de-ton-epaule", title: "Au Creux de ton Epaule", image: "/sculptures/videos/poster/Au_creux_de_ton_epaule.jpg", video: { preview: "/sculptures/videos/preview/Au_creux_de_ton_epaule.mp4", webm: "/sculptures/videos/preview/Au_creux_de_ton_epaule.webm", poster: "/sculptures/videos/poster/Au_creux_de_ton_epaule.jpg", full: "/sculptures/videos/full/Au_creux_de_ton_epaule.mp4" } },
+  { id: "au-creux-de-ton-epaule", title: "Au Creux de ton Épaule", image: "/sculptures/videos/poster/Au_creux_de_ton_epaule.jpg", video: { preview: "/sculptures/videos/preview/Au_creux_de_ton_epaule.mp4", webm: "/sculptures/videos/preview/Au_creux_de_ton_epaule.webm", poster: "/sculptures/videos/poster/Au_creux_de_ton_epaule.jpg", full: "/sculptures/videos/full/Au_creux_de_ton_epaule.mp4" } },
   { id: "berceuse", title: "Berceuse", image: "/sculptures/BERCEUSE.jpeg" },
   { id: "cambrures", title: "Cambrures", image: "/sculptures/CAMBRURES.jpeg" },
   { id: "capture", title: "Capture", image: "/sculptures/CAPTURE.jpg" },
@@ -25,7 +25,7 @@ export const sculptures: Sculpture[] = [
   { id: "ecrin-et-ne-crains-rien", title: "Écrin et ne Crains Rien", image: "/sculptures/ECRIN ET NE CRAINS RIEN.jpeg", video: { preview: "/sculptures/videos/preview/Ecrin_et_ne_crains_rien.mp4", webm: "/sculptures/videos/preview/Ecrin_et_ne_crains_rien.webm", poster: "/sculptures/videos/poster/Ecrin_et_ne_crains_rien.jpg", full: "/sculptures/videos/full/Ecrin_et_ne_crains_rien.mp4" } },
   { id: "embarquement-pour-cythere", title: "Embarquement pour Cythère", image: "/sculptures/EMBARQUEMENT POUR CYTHERE.jpeg" },
   { id: "il-etait-une-foi", title: "Il Était une Foi", image: "/sculptures/IL ETAIT UNE FOI.jpg" },
-  { id: "l-a-venir", title: "L a Venir", image: "/sculptures/videos/poster/La_venir.jpg", video: { preview: "/sculptures/videos/preview/La_venir.mp4", webm: "/sculptures/videos/preview/La_venir.webm", poster: "/sculptures/videos/poster/La_venir.jpg", full: "/sculptures/videos/full/La_venir.mp4" } },
+  { id: "l-a-venir", title: "L'À Venir", image: "/sculptures/videos/poster/La_venir.jpg", video: { preview: "/sculptures/videos/preview/La_venir.mp4", webm: "/sculptures/videos/preview/La_venir.webm", poster: "/sculptures/videos/poster/La_venir.jpg", full: "/sculptures/videos/full/La_venir.mp4" } },
   { id: "la-danse", title: "La Danse", image: "/sculptures/LA DANSE.jpeg" },
   { id: "la-valse", title: "La Valse", image: "/sculptures/LA VALSE.jpeg" },
   { id: "le-nid", title: "Le Nid", image: "/sculptures/LE NID.jpeg" },
@@ -33,7 +33,7 @@ export const sculptures: Sculpture[] = [
   { id: "le-pont-d-amour", title: "Le Pont d'Amour", image: "/sculptures/LE PONT D'AMOUR.jpeg" },
   { id: "le-soupirant", title: "Le Soupirant", image: "/sculptures/LE SOUPIRANT.jpeg" },
   { id: "les-amoureux", title: "Les Amoureux", image: "/sculptures/LES AMOUREUX.jpg" },
-  { id: "ni-queue-ni-tete", title: "Ni Queue ni Tete", image: "/sculptures/videos/poster/Ni_queue_ni_tete.jpg", video: { preview: "/sculptures/videos/preview/Ni_queue_ni_tete.mp4", webm: "/sculptures/videos/preview/Ni_queue_ni_tete.webm", poster: "/sculptures/videos/poster/Ni_queue_ni_tete.jpg", full: "/sculptures/videos/full/Ni_queue_ni_tete.mp4" } },
+  { id: "ni-queue-ni-tete", title: "Ni Queue ni Tête", image: "/sculptures/videos/poster/Ni_queue_ni_tete.jpg", video: { preview: "/sculptures/videos/preview/Ni_queue_ni_tete.mp4", webm: "/sculptures/videos/preview/Ni_queue_ni_tete.webm", poster: "/sculptures/videos/poster/Ni_queue_ni_tete.jpg", full: "/sculptures/videos/full/Ni_queue_ni_tete.mp4" } },
   { id: "nous-deux", title: "Nous Deux", image: "/sculptures/NOUS DEUX.jpeg" },
   { id: "p-tit-for-two", title: "P'tit for Two", image: "/sculptures/P'TIT FOR TWO.jpg" },
   { id: "septieme-ciel", title: "Septième Ciel", image: "/sculptures/SEPTIEME CIEL.jpeg" },
