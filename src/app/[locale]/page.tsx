@@ -23,7 +23,7 @@ export default async function Home({ params }: Props) {
             key={sculpture.id}
             className={`flex flex-col items-center ${
               index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-            } gap-8`}
+            } gap-4`}
           >
             <div className="w-full md:w-2/3 h-96 relative overflow-hidden">
               <Image
