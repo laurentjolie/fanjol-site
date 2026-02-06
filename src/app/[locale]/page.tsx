@@ -16,24 +16,24 @@ export default async function Home({ params }: Props) {
       <h1 className="text-3xl font-light text-center mb-12 tracking-wide">
         {t('title')}
       </h1>
-      <p className="text-center">{t('subtitle')}</p>
-      <div className="flex flex-col">
+      <p className="text-center text-gray-500 font-light">{t('subtitle')}</p>
+      <div className="flex flex-col gap-16 mt-12 max-w-4xl mx-auto">
         {sculptures.map((sculpture, index) => (
           <div
             key={sculpture.id}
-            className={`flex items-center gap-8 max-w-4xl mx-auto mb-12 ${
-              index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
-            }`}
+            className={`flex flex-col items-center ${
+              index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+            } gap-8`}
           >
-            <div className="w-2/3 h-96 relative overflow-hidden">
+            <div className="w-full md:w-2/3 h-96 relative overflow-hidden">
               <Image
                 src={sculpture.image}
                 alt={sculpture.title}
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
-            <div className="w-1/3 flex items-center justify-center">
+            <div className="w-full md:w-1/3 flex items-center justify-center">
               <p className="text-xl font-light text-gray-800 text-center">
                 {sculpture.title}
               </p>
