@@ -16,6 +16,10 @@
     "subtitle": "Unique bronze sculptures",
     "viewGallery": "View Gallery"
   },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Bronzes"
+  },
   "gallery": {
     "title": "Gallery",
     "allWorks": "All works"

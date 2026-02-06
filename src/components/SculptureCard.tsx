@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 import { useRef, useEffect } from 'react';
-import { Sculpture } from '@/data/sculptures';
+import { ShopSculpture } from '@/data/shop-sculptures';
 
-export default function SculptureCard({ sculpture }: { sculpture: Sculpture }) {
+export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture }) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
