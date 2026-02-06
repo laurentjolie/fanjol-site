@@ -16,17 +16,23 @@
     "subtitle": "Einzigartige Bronzeskulpturen",
     "viewGallery": "Galerie ansehen"
   },
-  "shop": {
-    "title": "Shop",
-    "subtitle": "Bronzen"
-  },
   "gallery": {
     "title": "Galerie",
     "allWorks": "Alle Werke"
   },
+  "shop": {
+    "title": "Bronzen zu verkaufen",
+    "subtitle": "Limitierte Auflagen von 8 Stück"
+  },
   "about": {
-    "title": "Über",
-    "artistStatement": "Künstlerisches Statement"
+    "title": "Fanjol",
+    "bio": [
+      "In Nancy geboren, lebt und arbeitet Fanjol in Paris, wo er sein Leben der Bildhauerei widmet. Seine Bronzewerke, die nach der traditionellen Sandgusstechnik gegossen werden, sind streng auf acht Exemplare limitiert und bewahren so die Einzigartigkeit und Kostbarkeit jedes Stückes.",
+      "Sein skulpturales Universum erkundet die universellen Themen des Paares, der Familie, der Mutterschaft, der Liebe und des Tanzes. Zwischen Figuration und Abstraktion erfassen seine Kreationen das Wesen menschlicher Emotionen mit seltener Sensibilität.",
+      "Seine sinnlichen Skulpturen mit ihren klaren und großzügigen Kurven laden zur Betrachtung und Berührung ein. Bronze erwacht unter seinen Händen zum Leben und offenbart Formen, die die Schönheit des Körpers und die Zärtlichkeit menschlicher Bindungen feiern.",
+      "Als Mitglied des Salon d'Automne im Grand Palais seit 1987 sind Fanjols Werke in renommierte Sammlungen in Frankreich, Deutschland, Belgien, den Vereinigten Staaten, Finnland, Israel, Japan, Luxemburg, Katar und der Schweiz eingegangen. Seine Zusammenarbeit mit der Kristallmanufaktur Daum zeugt von seinem Einfluss in der Kunstwelt."
+    ],
+    "contact": "Für Anfragen:"
   },
   "contact": {
     "title": "Kontakt",

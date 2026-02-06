@@ -16,17 +16,23 @@
     "subtitle": "Sculptures en bronze uniques",
     "viewGallery": "Voir la galerie"
   },
-  "shop": {
-    "title": "Boutique",
-    "subtitle": "Bronzes"
-  },
   "gallery": {
     "title": "Galerie",
     "allWorks": "Toutes les œuvres"
   },
+  "shop": {
+    "title": "Bronzes à vendre",
+    "subtitle": "Éditions limitées à 8 exemplaires"
+  },
   "about": {
-    "title": "À propos",
-    "artistStatement": "Démarche artistique"
+    "title": "Fanjol",
+    "bio": [
+      "Né à Nancy, Fanjol vit et travaille à Paris où il consacre sa vie à la sculpture. Ses œuvres en bronze, coulées selon la technique ancestrale du sable, sont strictement limitées à huit exemplaires, préservant ainsi l'unicité et la préciosité de chaque pièce.",
+      "Son univers sculptural explore les thèmes universels du couple, de la famille, de la maternité, de l'amour et de la danse. Entre figuration et abstraction, ses créations capturent l'essence des émotions humaines avec une sensibilité rare.",
+      "Ses sculptures sensuelles, aux courbes épurées et généreuses, invitent à la contemplation et au toucher. Le bronze prend vie sous ses mains, révélant des formes qui célèbrent la beauté du corps et la tendresse des liens humains.",
+      "Membre du Salon d'Automne au Grand Palais depuis 1987, Fanjol a vu ses œuvres rejoindre des collections prestigieuses en France, Allemagne, Belgique, États-Unis, Finlande, Israël, Japon, Luxembourg, Qatar et Suisse. Sa collaboration avec la cristallerie Daum témoigne de son rayonnement dans le monde de l'art."
+    ],
+    "contact": "Pour toute demande :"
   },
   "contact": {
     "title": "Contact",
