@@ -16,6 +16,7 @@ export default async function Home({ params }: Props) {
       <h1 className="text-3xl font-light text-center mb-12 tracking-wide">
         {t('title')}
       </h1>
+      <p className="text-center">{t('subtitle')}</p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {sculptures.map((sculpture) => (
           <div key={sculpture.id} className="group">

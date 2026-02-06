@@ -13,7 +13,7 @@
   },
   "home": {
     "title": "Sculptures",
-    "subtitle": "Unique bronze sculptures",
+    "subtitle": "Selection",
     "viewGallery": "View gallery"
   },
   "gallery": {
@@ -25,12 +25,7 @@
   },
   "about": {
     "title": "Fanjol",
-    "bio": [
-      "Born in Nancy, Fanjol lives and works in Paris where he dedicates his life to sculpture. His bronze works, cast using the ancestral sand technique, are strictly limited to eight copies, thus preserving the uniqueness and preciousness of each piece.",
-      "His sculptural universe explores the universal themes of couples, family, motherhood, love, and dance. Between figuration and abstraction, his creations capture the essence of human emotions with rare sensitivity.",
-      "His sensual sculptures, with their refined and generous curves, invite contemplation and touch. Bronze comes to life under his hands, revealing forms that celebrate the beauty of the body and the tenderness of human bonds.",
-      "A member of the Salon d'Automne at the Grand Palais since 1987, Fanjol has seen his works join prestigious collections in France, Germany, Belgium, the United States, Finland, Israel, Japan, Luxembourg, Qatar, and Switzerland. His collaboration with the Daum crystal works testifies to his influence in the art world."
-    ],
+    "bio": "Born in Nancy, Fanjol lives and works in Paris. A sculptor above all, she creates sand-cast bronzes in limited editions of eight. Over one hundred original works to her name.\n\nHer favorite themes: couples, family, motherhood, love, dance. Between figuration and abstraction, her sculptures carry a profound sensuality, blending curves and clean lines.\n\nHer primary goal: never losing the initial emotion of inspiration. Curves, arches, intertwined forms — Fanjol seeks to make emotion omnipresent.\n\nA member of the Salon d'Automne at the Grand Palais since 1987, her works are part of private and public collections in France, Germany, Belgium, USA, Finland, Israel, Japan, Luxembourg, Qatar, and Switzerland. She has also collaborated with Daum crystal on the Coeurs sculpture.",
     "contact": "For inquiries:"
   },
   "contact": {

@@ -16,7 +16,7 @@ export default async function AboutPage({ params }: Props) {
           {t('title')}
         </h1>
         <div className="prose prose-lg prose-gray">
-          {(t.raw('bio') as string[]).map((paragraph, i) => (
+          {(t('bio') as string).split('\n\n').map((paragraph, i) => (
             <p key={i} className="mb-6 text-gray-700">
               {paragraph}
             </p>

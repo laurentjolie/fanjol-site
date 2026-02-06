@@ -13,7 +13,7 @@
   },
   "home": {
     "title": "Skulpturen",
-    "subtitle": "Einzigartige Bronzeskulpturen",
+    "subtitle": "Auswahl",
     "viewGallery": "Galerie ansehen"
   },
   "gallery": {
@@ -25,12 +25,7 @@
   },
   "about": {
     "title": "Fanjol",
-    "bio": [
-      "In Nancy geboren, lebt und arbeitet Fanjol in Paris, wo er sein Leben der Bildhauerei widmet. Seine Bronzewerke, die nach der traditionellen Sandgusstechnik gegossen werden, sind streng auf acht Exemplare limitiert und bewahren so die Einzigartigkeit und Kostbarkeit jedes Stückes.",
-      "Sein skulpturales Universum erkundet die universellen Themen des Paares, der Familie, der Mutterschaft, der Liebe und des Tanzes. Zwischen Figuration und Abstraktion erfassen seine Kreationen das Wesen menschlicher Emotionen mit seltener Sensibilität.",
-      "Seine sinnlichen Skulpturen mit ihren klaren und großzügigen Kurven laden zur Betrachtung und Berührung ein. Bronze erwacht unter seinen Händen zum Leben und offenbart Formen, die die Schönheit des Körpers und die Zärtlichkeit menschlicher Bindungen feiern.",
-      "Als Mitglied des Salon d'Automne im Grand Palais seit 1987 sind Fanjols Werke in renommierte Sammlungen in Frankreich, Deutschland, Belgien, den Vereinigten Staaten, Finnland, Israel, Japan, Luxemburg, Katar und der Schweiz eingegangen. Seine Zusammenarbeit mit der Kristallmanufaktur Daum zeugt von seinem Einfluss in der Kunstwelt."
-    ],
+    "bio": "Geboren in Nancy, lebt und arbeitet Fanjol in Paris. Bildhauerin vor allem, schafft sie Sandguss-Bronzen in limitierter Auflage von acht Exemplaren. Über hundert Originalwerke hat sie geschaffen.\n\nIhre Lieblingsthemen: Paare, Familie, Mutterschaft, Liebe, Tanz. Zwischen Figuration und Abstraktion sind ihre Skulpturen von tiefer Sinnlichkeit geprägt, mit fließenden Kurven und klaren Linien.\n\nIhr oberstes Ziel: die ursprüngliche Emotion der Inspiration niemals zu verlieren. Kurven, Wölbungen, verschlungene Formen — Fanjol macht Emotion allgegenwärtig.\n\nSeit 1987 Mitglied des Salon d Automne im Grand Palais, befinden sich ihre Werke in privaten und öffentlichen Sammlungen in Frankreich, Deutschland, Belgien, USA, Finnland, Israel, Japan, Luxemburg, Katar und der Schweiz. Sie hat auch mit der Kristallmanufaktur Daum an der Skulptur Coeurs zusammengearbeitet.",
     "contact": "Für Anfragen:"
   },
   "contact": {
