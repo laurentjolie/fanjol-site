@@ -13,7 +13,7 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
 
   return (
     <div className="group">
-      <div className="aspect-[9/16] relative overflow-hidden bg-gray-50">
+      <div className="aspect-[9/16] relative overflow-hidden bg-gray-100">
         {sculpture.video ? (
           <video
             ref={videoRef}
