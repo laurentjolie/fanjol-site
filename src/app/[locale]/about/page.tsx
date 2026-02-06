@@ -23,7 +23,7 @@ export default async function AboutPage({ params }: Props) {
           ))}
         </div>
         <p className="mt-12 text-gray-600">
-          {t('contact')} <a href="mailto:claudejolie@orange.fr" className="underline hover:text-gray-800">claudejolie@orange.fr</a>
+          {t('contact')} <a href="mailto:fanjol@orange.fr" className="underline hover:text-gray-800">fanjol@orange.fr</a>
         </p>
       </div>
     </main>

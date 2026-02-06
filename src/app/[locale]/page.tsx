@@ -25,12 +25,12 @@ export default async function Home({ params }: Props) {
               index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
             }`}
           >
-            <div className="w-2/3 aspect-[9/16] relative overflow-hidden">
+            <div className="w-2/3 h-96 relative overflow-hidden">
               <Image
                 src={sculpture.image}
                 alt={sculpture.title}
                 fill
-                className="object-contain"
+                className="object-cover"
               />
             </div>
             <div className="w-1/3 flex items-center justify-center">
