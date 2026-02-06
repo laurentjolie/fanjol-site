@@ -13,7 +13,7 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
 
   return (
     <div className="group">
-      <div className="aspect-[3/4] relative overflow-hidden bg-gray-50">
+      <div className="aspect-[9/16] relative overflow-hidden bg-gray-50">
         {sculpture.video ? (
           <video
             ref={videoRef}
@@ -22,7 +22,7 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
             muted
             playsInline
             poster={sculpture.video.poster}
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className="absolute inset-0 w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
           >
             <source src={sculpture.video.webm} type="video/webm" />
             <source src={sculpture.video.preview} type="video/mp4" />
@@ -30,7 +30,7 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
               src={sculpture.video.poster}
               alt={sculpture.title}
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </video>
         ) : (
@@ -38,7 +38,7 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
             src={sculpture.image}
             alt={sculpture.title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         )}

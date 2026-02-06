@@ -18,12 +18,12 @@ export default async function Home({ params }: Props) {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {sculptures.map((sculpture) => (
-          <div key={sculpture.id} className="group aspect-square relative overflow-hidden">
+          <div key={sculpture.id} className="group aspect-[9/16] relative overflow-hidden">
             <Image
               src={sculpture.image}
               alt={sculpture.title}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-contain transition-transform duration-500 group-hover:scale-105"
             />
           </div>
         ))}
