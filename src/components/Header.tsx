@@ -26,14 +26,14 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between p-4 border-b border-gray-100">
       {/* Logo à gauche */}
-      <div className="flex-1">
+      <div className="hidden md:block md:flex-1">
         <Link href={`/${locale}`} className="text-xl font-semibold tracking-wide text-gray-900 hover:text-gray-700">
           Fanjol
         </Link>
       </div>
 
       {/* Navigation au centre */}
-      <nav className="flex items-center gap-8">
+      <nav className="flex items-center gap-4 md:gap-8">
         {navLinks.map((link) => (
           <Link
             key={link.key}
