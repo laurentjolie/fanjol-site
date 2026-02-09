@@ -7,10 +7,10 @@ export interface Sculpture {
 export const sculptures: Sculpture[] = [
   { id: "tendresse", title: "Tendresse", image: "/sculptures/TENDRESSE.JPG" },
   { id: "alliances", title: "Alliances", image: "/sculptures/ALLIANCES.jpeg" },
-  { id: "communion", title: "Communion", image: "/sculptures/COMMUNION.jpeg" },
+  { id: "symbiose", title: "Symbiose", image: "/sculptures/videos/poster/Symbiose.jpg" },
   { id: "le-penchant", title: "Le Penchant", image: "/sculptures/videos/poster/Le_penchant.jpg" },
   { id: "berceuse", title: "Berceuse", image: "/sculptures/BERCEUSE.jpeg" },
-  { id: "symbiose", title: "Symbiose", image: "/sculptures/videos/poster/Symbiose.jpg" },
+  { id: "communion", title: "Communion", image: "/sculptures/COMMUNION.jpeg" },
   { id: "chuchotement", title: "Chuchotement", image: "/sculptures/CHUCHOTEMENT.jpg" },
   { id: "la-valse", title: "La Valse", image: "/sculptures/LA VALSE.jpeg" },
   { id: "a-parents-tiers", title: "À Parents-Tiers", image: "/sculptures/videos/poster/A_parents-tiers_1rotation.jpg" },

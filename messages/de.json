@@ -21,7 +21,9 @@
     "allWorks": "Alle Werke"
   },
   "shop": {
-    "title": "Bronzen zu verkaufen"
+    "title": "Zu verkaufen",
+    "subtitle": "Aktuell verfügbar",
+    "material": "Bronze"
   },
   "about": {
     "title": "Fanjol",

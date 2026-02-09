@@ -4,7 +4,12 @@ import Image from 'next/image';
 import { useRef, useEffect } from 'react';
 import { ShopSculpture } from '@/data/shop-sculptures';
 
-export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture }) {
+interface Props {
+  sculpture: ShopSculpture;
+  material?: string;
+}
+
+export default function SculptureCard({ sculpture, material }: Props) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -46,6 +51,11 @@ export default function SculptureCard({ sculpture }: { sculpture: ShopSculpture 
       <p className="mt-3 text-sm text-gray-700 text-center font-light">
         {sculpture.title}
       </p>
+      {material && (
+        <p className="text-xs text-gray-500 text-center font-light">
+          {material}
+        </p>
+      )}
     </div>
   );
 }

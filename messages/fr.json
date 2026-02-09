@@ -21,7 +21,9 @@
     "allWorks": "Toutes les œuvres"
   },
   "shop": {
-    "title": "Bronzes à vendre"
+    "title": "À vendre",
+    "subtitle": "Disponibles actuellement",
+    "material": "Bronze"
   },
   "about": {
     "title": "Fanjol",
