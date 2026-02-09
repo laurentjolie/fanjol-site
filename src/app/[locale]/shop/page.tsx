@@ -10,6 +10,7 @@ export default async function ShopPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('shop');
+  const b = await getTranslations('book');
 
   return (
     <main className="min-h-screen bg-white px-6 py-16 sm:px-8 lg:px-12">
@@ -25,6 +26,30 @@ export default async function ShopPage({ params }: Props) {
             <SculptureCard key={sculpture.id} sculpture={sculpture} material={t('material')} />
           ))}
         </div>
+
+        <section className="mt-24 pt-16 border-t border-gray-200 max-w-2xl mx-auto text-center">
+          <h2 className="text-2xl font-light mb-8 tracking-wide">{b('sectionTitle')}</h2>
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <img
+              src="/book-cover.jpg"
+              alt={b('title')}
+              className="w-48 shadow-lg"
+            />
+            <div className="text-left">
+              <h3 className="text-xl font-medium italic mb-2">{b('title')}</h3>
+              <p className="text-gray-600 mb-2">{b('type')}</p>
+              <p className="text-gray-500 mb-4">{b('description')}</p>
+              <a
+                href="https://www.amazon.fr/dp/B0GC661SCZ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-black underline"
+              >
+                {b('linkText')} →
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
